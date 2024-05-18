@@ -1,0 +1,72 @@
+.reveal {
+    font-size: 40px;
+}
+
+.reveal h1 {
+    font-size: 1.74em;
+    color: #222;
+}
+
+.reveal h3 {
+    font-size: 1.35em;
+    color: #222;
+}
+
+.reveal .progress span {
+    transition: unset;
+}
+
+.reveal .slides {
+    padding-top: 1.5em;
+}
+
+.column-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-box .left-column {
+    flex-basis: 55%;
+}
+
+.column-box .right-column {
+    flex-basis: 40%;
+    padding-top: 2rem;
+    margin-left: 5%;
+}
+
+.column-box .left-column2 {
+    flex-basis: 44%;
+}
+
+.column-box .right-column2 {
+    text-align: left;
+    flex-basis: 55%;
+    padding-top: 2rem;
+    margin-left: 1%;
+}
+
+.column-box .left-column2-bu2 {
+    padding-top: 2.5rem;
+    flex-basis: 44%;
+}
+
+.column-box .right-column2-bu2 {
+    text-align: left;
+    flex-basis: 55%;
+    margin-left: 1%;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.reveal .slide-number {
+    color: #666;
+    background-color: transparent;
+    font-size: 3vh;
+}
+
+.reveal .progress {
+    height: 1vh;
+}

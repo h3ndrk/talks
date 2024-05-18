@@ -1,0 +1,66 @@
+git clone git@github.com:HULKs/nao.git nao-neuralnet
+cd nao-neuralnet
+git remote add PasGl git@github.com:PasGl/nao.git
+git fetch PasGl
+git switch distributedEvolver
+cd tools/machine-learning
+virtualenv --python $(which python3) venv
+source venv/bin/activate
+pip install --editable generic/distributed_task_execution_framework/producer/backend/genetic_algorithm/sliding/ && pip install --editable generic/distributed_task_execution_framework/producer/backend/genetic_individual/bitvector/ && pip install --editable generic/distributed_task_execution_framework/producer/backend/genetic_individual/positioner/ && pip install --editable generic/distributed_task_execution_framework/producer/backend/genetic_individual/string/ && pip install --editable generic/distributed_task_execution_framework/producer/backend/shared/ && pip install --editable generic/distributed_task_execution_framework/router/ && pip install --editable generic/distributed_task_execution_framework/worker/genetic_individual_bitvector/ && pip install --editable generic/distributed_task_execution_framework/worker/genetic_individual_string/ && pip install --editable generic/distributed_task_execution_framework/worker/worker/
+
+pip install -r requirements.txt
+dvc remote modify --local rkost ask_password true
+dvc pull data/HULKs/datasets/ball_detection/dvc.yaml
+
+import uuid, f-string in tmp_model_path-line
+nano generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/ditef_worker_genetic_individual_neuralnet/__init__.py
+
+https://github.com/HULKs/nao/pull/3173/files
+chmod +x generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/*.sh
+generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/build.sh
+cp generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/{run,run-gpu0}.sh
+cp generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/{run,run-gpu1}.sh
+cp generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/{run,run-gpu2}.sh
+mv generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/{run,run-cpu}.sh
+nano generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/run-cpu.sh
+nano generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/run-gpu0.sh
+nano generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/run-gpu1.sh
+nano generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/run-gpu2.sh
+
+change predicter path to /predicter:
+nano generic/distributed_task_execution_framework/producer/backend/genetic_individual/positioner/ditef_producer_genetic_individual_positioner/__init__.py
+
+async def subscribe_to_population_metrics(): (hours=24, minutes=30)
+nano generic/distributed_task_execution_framework/producer/backend/genetic_algorithm/sliding/ditef_producer_genetic_algorithm_sliding/api.py
+
+ditef-router --port 8080
+generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/run-gpu0.sh ditef-worker http://134.28.57.202:8080/ ditef_worker_genetic_individual_neuralnet
+generic/distributed_task_execution_framework/worker/genetic_individual_neuralnet/run-gpu2.sh ditef-worker http://134.28.57.202:8080/ ditef_worker_genetic_individual_neuralnet
+ditef-producer-genetic-algorithm-sliding http://localhost:8080/ ditef_producer_genetic_individual_positioner
+
+cd generic/distributed_task_execution_framework/producer/frontend
+member.fitness !== null:
+nano src/components/Population.js
+parent.fitness !== null, child.fitness !== null:
+nano src/components/individuals/PositionerIndividual.js
+yarn install
+BROWSER=none yarn start
+
+
+
+git clone git@github.com:HULKs/nao.git nao-bitvector-string
+cd nao-bitvector-string
+cd tools/machine-learning
+virtualenv --python $(which python3) venv
+source venv/bin/activate
+pip install --editable generic/distributed_task_execution_framework/producer/backend/genetic_algorithm/sliding/ && pip install --editable generic/distributed_task_execution_framework/producer/backend/genetic_individual/bitvector/ && pip install --editable generic/distributed_task_execution_framework/producer/backend/genetic_individual/string/ && pip install --editable generic/distributed_task_execution_framework/producer/backend/shared/ && pip install --editable generic/distributed_task_execution_framework/router/ && pip install --editable generic/distributed_task_execution_framework/worker/genetic_individual_bitvector/ && pip install --editable generic/distributed_task_execution_framework/worker/genetic_individual_string/ && pip install --editable generic/distributed_task_execution_framework/worker/worker/
+
+4 consoles:
+all: cd tools/machine-learning
+1: source venv/bin/activate, ditef-router --port 8082
+2: source venv/bin/activate, ditef-worker http://localhost:8082/ ditef_worker_genetic_individual_bitvector
+3: source venv/bin/activate, ditef-producer-genetic-algorithm-sliding --port 8083 --population-tasks 11 http://localhost:8082/ ditef_producer_genetic_individual_bitvector
+4: cd generic/distributed_task_execution_framework/producer/frontend, nano package.json (8083), yarn install, BROWSER=none PORT=3001 yarn start
+
+ditef-worker http://localhost:8082/ ditef_worker_genetic_individual_string
+ditef-producer-genetic-algorithm-sliding --port 8083 http://localhost:8082/ ditef_producer_genetic_individual_string
