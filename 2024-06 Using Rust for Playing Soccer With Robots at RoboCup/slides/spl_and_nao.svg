@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    viewBox="0 0 1920 1080"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+        <feDropShadow dy="5" stdDeviation="15" />
+    </filter>
+    <image x="0" y="0" width="1920" height="1080" href="nao_kicks_ball.jpg" />
+
+    <text x="70" y="100"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 65px; filter: url(#shadow);"
+        fill="white">Standard Platform League (SPL)</text>
+    <circle cx="77" cy="153" r="7" fill="white" />
+    <text x="100" y="170"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">7
+        vs. 7 or 5 vs. 5</text>
+    <circle cx="77" cy="213" r="7" fill="white" />
+    <text x="100" y="230"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">Fully
+        autonomous</text>
+    <circle cx="77" cy="273" r="7" fill="white" />
+    <text x="100" y="290"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">Identical
+        robots, only software differs</text>
+
+    <text x="1500" y="100"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 65px; filter: url(#shadow);"
+        fill="white">NAO</text>
+    <text x="1520" y="170"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">Intel
+        Atom (2013)</text>
+    <text x="1520" y="230"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">4GB
+        RAM</text>
+    <text x="1520" y="290"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">32GB
+        Flash</text>
+    <line x1="1505" y1="130" x2="1505" y2="295" stroke="white" stroke-width="5" />
+    <line x1="1380" y1="145" x2="1505" y2="190" stroke="white" stroke-width="5" />
+    <text x="930" y="200"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">2
+        Cameras</text>
+    <circle cx="1205" cy="108" r="20" fill="rgba(255, 255, 255, 0.25)" stroke="white"
+        stroke-width="5" />
+    <circle cx="1223" cy="203" r="20" fill="rgba(255, 255, 255, 0.25)" stroke="white"
+        stroke-width="5" />
+    <text x="950" y="400"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);"
+        text-anchor="end" fill="white">Ultrasonics</text>
+    <text x="950" y="460"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);"
+        text-anchor="end" fill="white">Accelerometer</text>
+    <text x="950" y="520"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);"
+        text-anchor="end" fill="white">Gyroscope</text>
+    <line x1="965" y1="360" x2="965" y2="525" stroke="white" stroke-width="5" />
+    <line x1="965" y1="410" x2="1200" y2="360" stroke="white" stroke-width="5" />
+    <text x="750" y="620"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);"
+        text-anchor="end" fill="white">Pressure</text>
+    <text x="750" y="680"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);"
+        text-anchor="end" fill="white">Bumpers</text>
+    <line x1="765" y1="580" x2="765" y2="685" stroke="white" stroke-width="5" />
+    <line x1="765" y1="650" x2="850" y2="880" stroke="white" stroke-width="5" />
+    <text x="1520" y="850"
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">26
+        Joints</text>
+    <line x1="1500" y1="830" x2="1195" y2="715" stroke="white" stroke-width="5" />
+</svg>

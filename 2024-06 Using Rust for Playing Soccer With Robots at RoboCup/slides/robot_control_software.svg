@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    viewBox="0 0 1920 1080"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+    <filter id="shadow-black" x="-100%" y="-100%" width="300%" height="300%">
+        <feDropShadow dy="5" stdDeviation="10" flood-opacity="0.5" />
+    </filter>
+    <filter id="shadow-white" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dy="-2" stdDeviation="15" flood-color="white" />
+        <feDropShadow dy="-2" stdDeviation="15" flood-color="white" />
+    </filter>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+        <feImage x="0" y="0" width="100%" height="100%" href="nao_walking_in.jpg" />
+        <feGaussianBlur stdDeviation="50 50" result="image" />
+        <feFlood x="0" y="0" width="100%" height="100%" flood-color="white" flood-opacity="0.35"
+            result="white-overlay" />
+        <feMerge>
+            <feMergeNode in="image" />
+            <feMergeNode in="white-overlay" />
+        </feMerge>
+        <feComposite operator="in" in2="SourceGraphic" />
+        <feDropShadow dy="2" stdDeviation="10" flood-opacity="0.5" />
+    </filter>
+
+    <image x="0" y="0" width="1920" height="1080" href="nao_walking_in.jpg" />
+
+    <text x="17%" y="8%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 65px; filter: url(#shadow-white);"
+        fill="black">Robot Control Software</text>
+    <rect x="17%" y="11.5%" width="18.75%" height="68.5%" rx="15" ry="15"
+        style="filter: url(#blur);" />
+    <rect x="37.75%" y="11.5%" width="18.75%" height="59%" rx="15" ry="15"
+        style="filter: url(#blur);" />
+    <rect x="58.5%" y="11.5%" width="18.75%" height="28%" rx="15" ry="15"
+        style="filter: url(#blur);" />
+    <rect x="79.25%" y="11.5%" width="18.75%" height="50.5%" rx="15" ry="15"
+        style="filter: url(#blur);" />
+    <rect x="17%" y="83%" width="81%" height="13.4444444%" rx="15" ry="15"
+        style="filter: url(#blur);" />
+
+    <text x="17.75%" y="15%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">Perception</text>
+    <image x="17.75%" y="16.5%" width="17.25%" height="23%" href="camera_top.jpg" />
+    <rect x="23.45%" y="22.4%" width="1.7%" height="7.1%" fill="none" stroke="#0f0" stroke-width="4" />
+    <circle cx="28.05%" cy="35.1%" r="1.1%" fill="none" stroke="#f0f" stroke-width="4" />
+    <polyline points="501,285 465,414 672,414" fill="none" stroke="#0ff" stroke-width="4"
+        stroke-dasharray="8 6" />
+    <polyline points="585,290 660,335 672,335" fill="none" stroke="#0ff" stroke-width="4"
+        stroke-dasharray="8 6" />
+    <image x="17.75%" y="41%" width="17.25%" height="23%" href="camera_bottom.jpg" />
+    <polyline points="468,443 462,465 672,465" fill="none" stroke="#0ff" stroke-width="4"
+        stroke-dasharray="8 6" />
+    <text x="17.75%" y="67.5%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Joint
+        Positions, Microphone,</text>
+    <text x="17.75%" y="71%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Accelerometer,
+        Gyroscope,</text>
+    <text x="17.75%" y="74.5%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Ultrasonics,
+        Foot Pressure,</text>
+    <text x="17.75%" y="78%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Foot
+        Bumper</text>
+
+    <text x="38.5%" y="15%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">World Model</text>
+    <rect x="38.5%" y="16.5%" width="17.25%" height="45%" fill="#070" />
+    <rect x="39%" y="17.5%" width="16.25%" height="43%" fill="none" stroke="white" stroke-width="4" />
+    <line x1="39%" y1="39%" x2="55.25%" y2="39%" stroke="white" stroke-width="4" />
+    <circle cx="47.125%" cy="39%" r="3%" fill="none" stroke="white" stroke-width="4" />
+    <rect x="42%" y="17.5%" width="10.25%" height="9%" fill="none" stroke="white" stroke-width="4" />
+    <rect x="42%" y="51.5%" width="10.25%" height="9%" fill="none" stroke="white" stroke-width="4" />
+    <rect x="44%" y="17.5%" width="6.25%" height="4%" fill="none" stroke="white" stroke-width="4" />
+    <rect x="44%" y="56.5%" width="6.25%" height="4%" fill="none" stroke="white" stroke-width="4" />
+    <circle cx="45%" cy="28.5%" r="1.1%" fill="#4f4" />
+    <circle cx="51.5%" cy="24%" r="0.65%" fill="#f4f" />
+    <polyline points="1005,230 1005,280 820,280" fill="none" stroke="#0ff" stroke-width="4"
+        stroke-dasharray="8 6" />
+    <polyline points="967,210 967,226 850,226" fill="none" stroke="#0ff" stroke-width="4"
+        stroke-dasharray="8 6" />
+    <circle cx="54.5%" cy="25.5%" r="0.8%" fill="#000" stroke="#ff0" stroke-width="4" />
+    <line x1="53.4%" y1="25.5%" x2="54.5%" y2="25.5%" stroke="#ff0" stroke-width="4" />
+    <text x="38.5%" y="65%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Localization,
+        Ball, Obstacles,</text>
+    <text x="38.5%" y="68.5%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">
+        Game State, Network</text>
+
+    <text x="59.25%" y="15%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">Behavior</text>
+    <text x="59.25%" y="19%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Dynamic
+        Roles</text>
+    <text x="59.25%" y="22.5%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">
+        Actions</text>
+    <text x="59.25%" y="26%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Path
+        Planning</text>
+    <text x="59.25%" y="29.5%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Motion
+        Command</text>
+    <path d="M1449.6,275.4 L1390,260 L1350,400" fill="none" stroke="black" stroke-width="2"
+        stroke-linecap="round" />
+    <polyline points="1350,405 1360,390 1347,386.5" fill="black" />
+    <circle cx="75.5%" cy="25.5%" r="0.8%" fill="#000" stroke="#ff0" stroke-width="4" />
+    <line x1="74.4%" y1="25.5%" x2="75.5%" y2="25.5%" stroke="#ff0" stroke-width="4" />
+
+    <text x="80%" y="15%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">Motion</text>
+    <text x="80%" y="19%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Robust
+        Walking</text>
+    <text x="80%" y="22.5%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">In-Walk
+        Kicks</text>
+    <text x="80%" y="26%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Head
+        and Arms</text>
+    <text x="80%" y="29.5%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Stand
+        Up</text>
+    <text x="80%" y="33%" style="font-family: SF Pro Display; font-size: 27px;" fill="black">Fall
+        Protection</text>
+    <image x="80%" y="34.5%" width="17.25%" height="26.2857143%" href="stepspline2.png" />
+
+    <text x="57.5%" y="88.5%" text-anchor="middle"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;" fill="black">Hardware
+        Interface + Framework</text>
+    <text x="57.5%" y="93%" text-anchor="middle"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;" fill="black">Yocto
+        Linux</text>
+    <path d="M850,940 C700,930 580,890 550,850 L550,875 L550,848 L575,848 L550,848" fill="none"
+        stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"
+        style="filter: url(#shadow-black);" />
+    <path d="M660,400 L740,380 L720,370 L740,380 L727,397 L740,380" fill="none" stroke="white"
+        stroke-width="8" stroke-linecap="round" stroke-linejoin="round"
+        style="filter: url(#shadow-black);" />
+    <path d="M1050,340 L1130,335 L1113,322 L1130,335 L1115,350 L1130,335" fill="none" stroke="white"
+        stroke-width="8" stroke-linecap="round" stroke-linejoin="round"
+        style="filter: url(#shadow-black);" />
+    <path d="M1450,350 L1540,385 L1532,367 L1540,385 L1523,392" fill="none" stroke="white"
+        stroke-width="8" stroke-linecap="round" stroke-linejoin="round"
+        style="filter: url(#shadow-black);" />
+    <path d="M1670,655 C1670,800 1500,940 1360,940 L1375,925 L1360,940 L1375,955 L1360,940"
+        fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"
+        style="filter: url(#shadow-black);" />
+</svg>

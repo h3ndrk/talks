@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    viewBox="0 0 1920 1080"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+        <feDropShadow dy="5" stdDeviation="10" />
+    </filter>
+    <filter id="white-shadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feDropShadow dy="2" stdDeviation="10" flood-color="#ffffff" />
+    </filter>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%">
+        <feImage x="0" y="0" width="100%" height="100%" href="two_naos_fighting_for_ball.jpg" />
+        <feGaussianBlur stdDeviation="15 15" result="image" />
+        <feFlood x="0" y="0" width="100%" height="100%" flood-color="white" flood-opacity="0.35"
+            result="white-overlay" />
+        <feMerge>
+            <feMergeNode in="image" />
+            <feMergeNode in="white-overlay" />
+        </feMerge>
+        <feComposite operator="in" in2="SourceGraphic" />
+        <feDropShadow dy="2" stdDeviation="25" />
+    </filter>
+
+    <image x="0" y="0" width="1920" height="1080" href="two_naos_fighting_for_ball.jpg" />
+
+    <rect x="5%" y="10%" width="12%" height="10%" rx="15" ry="15" style="filter: url(#blur);" />
+    <text x="5.5%" y="13%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">Audio</text>
+    <circle cx="7%" cy="16.5%" r="1.5%" />
+    <circle cx="11%" cy="16.5%" r="1.5%" />
+    <line x1="7%" y1="16.5%" x2="15%" y2="16.5%" stroke="black" stroke-width="6" />
+
+    <rect x="5%" y="23%" width="16%" height="10%" rx="15" ry="15" style="filter: url(#blur);" />
+    <text x="5.5%" y="26%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">SPL Network</text>
+    <circle cx="7%" cy="29.5%" r="1.5%" />
+    <circle cx="11%" cy="29.5%" r="1.5%" />
+    <circle cx="15%" cy="29.5%" r="1.5%" />
+    <line x1="7%" y1="29.5%" x2="19%" y2="29.5%" stroke="black" stroke-width="6" />
+
+    <rect x="5%" y="36%" width="24%" height="10%" rx="15" ry="15" style="filter: url(#blur);" />
+    <text x="5.5%" y="39%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">Vision Top</text>
+    <circle cx="7%" cy="42.5%" r="1.5%" />
+    <circle cx="11%" cy="42.5%" r="1.5%" />
+    <circle cx="15%" cy="42.5%" r="1.5%" />
+    <circle cx="19%" cy="42.5%" r="1.5%" />
+    <circle cx="23%" cy="42.5%" r="1.5%" />
+    <path d="M288,459 C288,499 441.6,499 441.6,459" fill="none" stroke="black" stroke-width="6" />
+    <path d="M364.8,459 C364.8,419 518.4,419 518.4,459" fill="none" stroke="black" stroke-width="6" />
+    <line x1="7%" y1="42.5%" x2="27%" y2="42.5%" stroke="black" stroke-width="6" />
+
+    <rect x="5%" y="49%" width="24%" height="10%" rx="15" ry="15" style="filter: url(#blur);" />
+    <text x="5.5%" y="52%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">Vision Bottom</text>
+    <circle cx="7%" cy="55.5%" r="1.5%" />
+    <circle cx="11%" cy="55.5%" r="1.5%" />
+    <circle cx="15%" cy="55.5%" r="1.5%" />
+    <circle cx="19%" cy="55.5%" r="1.5%" />
+    <circle cx="23%" cy="55.5%" r="1.5%" />
+    <path d="M288,599.4 C288,639.4 441.6,639.4 441.6,599.4" fill="none" stroke="black"
+        stroke-width="6" />
+    <path d="M364.8,599.4 C364.8,559.4 518.4,559.4 518.4,599.4" fill="none" stroke="black"
+        stroke-width="6" />
+    <line x1="7%" y1="55.5%" x2="27%" y2="55.5%" stroke="black" stroke-width="6" />
+
+    <rect x="20%" y="65%" width="60%" height="10%" rx="15" ry="15" style="filter: url(#blur);" />
+    <text x="20.5%" y="68%" style="font-family: SF Pro Display; font-weight: 700; font-size: 30px;"
+        fill="black">Control</text>
+    <text x="30%" y="68%" style="font-family: SF Pro Display; font-size: 30px;" fill="black">
+        Perception</text>
+    <text x="44%" y="68%" style="font-family: SF Pro Display; font-size: 30px;" fill="black">World
+        Model</text>
+    <text x="55%" y="68%" style="font-family: SF Pro Display; font-size: 30px;" fill="black">
+        Behavior</text>
+    <text x="65%" y="68%" style="font-family: SF Pro Display; font-size: 30px;" fill="black">Motion</text><!--
+    772.2 -->
+    <circle cx="22%" cy="71.5%" r="1.5%" /><!-- 422.4 -->
+    <circle cx="26%" cy="71.5%" r="1.5%" /><!-- 499.2 -->
+    <circle cx="30%" cy="71.5%" r="1.5%" /><!-- 576.0 -->
+    <circle cx="34%" cy="71.5%" r="1.5%" /><!-- 652.8 -->
+    <circle cx="38%" cy="71.5%" r="1.5%" /><!-- 729.6 -->
+    <circle cx="46%" cy="71.5%" r="1.5%" /><!-- 883.2 -->
+    <circle cx="50%" cy="71.5%" r="1.5%" /><!-- 960.0 -->
+    <circle cx="54%" cy="71.5%" r="1.5%" /><!-- 1036.8 -->
+    <circle cx="58%" cy="71.5%" r="1.5%" /><!-- 1113.6 -->
+    <circle cx="62%" cy="71.5%" r="1.5%" /><!-- 1190.4 -->
+    <circle cx="66%" cy="71.5%" r="1.5%" /><!-- 1267.2 -->
+    <circle cx="70%" cy="71.5%" r="1.5%" /><!-- 1344.0 -->
+    <circle cx="74%" cy="71.5%" r="1.5%" /><!-- 1420.8 -->
+    <circle cx="78%" cy="71.5%" r="1.5%" /><!-- 1497.6 -->
+    <path d="M499.2,772.2 C499.2,812.2 652.8,812.2 652.8,772.2" fill="none" stroke="black"
+        stroke-width="6" />
+    <path d="M499.2,772.2 C499.2,822.2 729.6,812.2 729.6,772.2" fill="none" stroke="black"
+        stroke-width="6" />
+    <path d="M652.8,772.2 C652.8,732.2 806.4,732.2 806.4,772.2" fill="none" stroke="black"
+        stroke-width="6" />
+    <path d="M883.2,772.2 C883.2,812.2 1036.8,812.2 1036.8,772.2" fill="none" stroke="black"
+        stroke-width="6" />
+    <path d="M1190.4,772.2 C1190.4,732.2 1344.0,732.2 1344.0,772.2" fill="none" stroke="black"
+        stroke-width="6" />
+    <line x1="22%" y1="71.5%" x2="78%" y2="71.5%" stroke="black" stroke-width="6" />
+    <path d="M806.4,772.2 C806.4,732.2 1190.4,732.2 1190.4,772.2" fill="none" stroke="black"
+        stroke-width="6" />
+
+    <path
+        d="M288,178.2 C688,178.2 806.4,672.2 806.4,772.2 M364.8,318.6 C664.8,318.6 806.4,672.2 806.4,772.2 M518.4,459 C618.4,459 806.4,672.2 806.4,772.2 M518.4,599.4 C618.4,599.4 806.4,672.2 806.4,772.2"
+        fill="none" stroke="black" stroke-width="6" style="filter: url(#white-shadow);" />
+
+    <!-- Audio -->
+    <circle cx="15%" cy="16.5%" r="1.5%" />
+    <!-- SPL Network -->
+    <circle cx="19%" cy="29.5%" r="1.5%" />
+    <!-- Vision Top -->
+    <circle cx="27%" cy="42.5%" r="1.5%" />
+    <!-- Vision Bottom -->
+    <circle cx="27%" cy="55.5%" r="1.5%" />
+    <!-- Control -->
+    <circle cx="42%" cy="71.5%" r="1.5%" /><!-- 806.4 -->
+
+    <text x="5%" y="7%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 65px; filter: url(#shadow);"
+        fill="white">Software Design</text>
+
+    <text x="74%" y="8%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 30px; filter: url(#shadow);"
+        fill="white">Framework</text>
+    <circle cx="74.25%" cy="11%" r="4" fill="white" />
+    <text x="74.85%" y="12%"
+        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Developer
+        writes nodes, framework</text>
+    <text x="74.85%" y="15%"
+        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">
+        executes</text>
+    <circle cx="74.25%" cy="18%" r="4" fill="white" />
+    <text x="74.85%" y="19%"
+        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">
+        Multi-threading</text>
+    <circle cx="74.25%" cy="22%" r="4" fill="white" />
+    <text x="74.85%" y="23%"
+        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Code
+        generation</text>
+    <circle cx="74.25%" cy="26%" r="4" fill="white" />
+    <text x="74.85%" y="27%"
+        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Debugging
+        server</text>
+
+    <text x="74%" y="34%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 30px; filter: url(#shadow);"
+        fill="white">Tooling</text>
+    <circle cx="74.25%" cy="37%" r="4" fill="white" />
+    <text x="74.85%" y="38%"
+        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Debugging
+        clients</text>
+    <circle cx="74.25%" cy="41%" r="4" fill="white" />
+    <text x="74.85%" y="42%"
+        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Recording
+        &amp; Replay</text>
+    <circle cx="74.25%" cy="45%" r="4" fill="white" />
+    <text x="74.85%" y="46%"
+        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Behavior
+        simulator</text>
+</svg>

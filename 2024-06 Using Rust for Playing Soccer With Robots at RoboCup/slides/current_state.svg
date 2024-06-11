@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    viewBox="0 0 1920 1080"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+        <feDropShadow dy="2" stdDeviation="10" flood-color="white" />
+    </filter>
+    <filter id="shadow2" x="-100%" y="-100%" width="300%" height="300%">
+        <feDropShadow dy="5" stdDeviation="15" />
+        <feDropShadow dy="5" stdDeviation="15" flood-opacity="0.5" />
+    </filter>
+
+    <image x="0" y="0" width="1920" height="1080" href="nao_kicks_ball2.jpg" />
+
+    <text x="55%" y="7%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 65px; filter: url(#shadow);"
+        fill="black">Current State &amp; Tools
+    </text>
+
+    <text x="55%" y="14%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Newbie Education</text>
+    <text x="55%" y="20%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Monorepo</text>
+    <text x="55%" y="26%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Workspace Dependencies (cargo)</text>
+    <text x="55%" y="32%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Yocto Integration (depp, cargo-bitbake)</text>
+    <text x="55%" y="38%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Additional Tooling (clap, indicatif)</text>
+    <text x="55%" y="44%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">CI Setup (test, clippy, rustfmt)</text>
+    <text x="55%" y="50%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">UI Tools (egui, tungstenite + Web)</text>
+    <text x="55%" y="56%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Profiling (VTune, pprof)</text>
+    <text x="55%" y="62%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Linear Algebra Libraries (nalgebra)</text>
+    <text x="55%" y="68%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Error Handling (anyhow, eyre, color-eyre)</text>
+    <text x="55%" y="74%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Serialization (serde)</text>
+    <text x="55%" y="80%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Coordinate Systems</text>
+    <text x="55%" y="86%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Machine Learning (CompiledNN, OpenVINO)</text>
+    <text x="55%" y="92%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Interfacing to C++ and other stuff (bindgen, mlua)</text>
+</svg>

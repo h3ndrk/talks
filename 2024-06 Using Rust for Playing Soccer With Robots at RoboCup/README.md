@@ -13,3 +13,17 @@ These robots must execute tasks such as identifying the soccer ball, accurately 
 Our codebase includes several vision, behavioral, and motion algorithms paired with debugging applications.
 
 Throughout the talk, I will share lessons learned from this transition process, touching not only on technical challenges but also on the education of our team members.
+
+```
+cargo install --git https://github.com/RazrFalcon/resvg --tag v0.41.0 resvg
+cargo install --git https://github.com/typst/svg2pdf
+```
+
+- https://commons.wikimedia.org/wiki/File:RoboCup_Rescue_robot_Hector_from_Darmstadt_at_2010_German_open.jpg
+- https://www.flickr.com/photos/robocup2013/9141117651
+- https://www.flickr.com/photos/robocup2013/9143508922
+- https://commons.wikimedia.org/wiki/File:RoboCup_2016_Leipzig_-_RoboCup_Logistics_League_%282%29.jpg
+- https://commons.wikimedia.org/wiki/File:13-06-28-robocup-eindhoven-023.jpg
+- https://commons.wikimedia.org/wiki/File:Small_size_robocup.jpg
+- https://commons.wikimedia.org/wiki/File:RoboCup_2016_Leipzig_-_Humanoid_Kid_Size_League_(1).jpg
+- https://commons.wikimedia.org/wiki/File:RoboCup-2D-Soccer-Simulation-Field.jpg
