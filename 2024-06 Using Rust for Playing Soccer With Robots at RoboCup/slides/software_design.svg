@@ -123,42 +123,42 @@
         style="font-family: SF Pro Display; font-weight: 700; font-size: 65px; filter: url(#shadow);"
         fill="white">Software Design</text>
 
-    <text x="74%" y="8%"
-        style="font-family: SF Pro Display; font-weight: 700; font-size: 30px; filter: url(#shadow);"
+    <text x="76%" y="6%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
         fill="white">Framework</text>
-    <circle cx="74.25%" cy="11%" r="4" fill="white" />
-    <text x="74.85%" y="12%"
-        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Developer
-        writes nodes, framework</text>
-    <text x="74.85%" y="15%"
-        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">
-        executes</text>
-    <circle cx="74.25%" cy="18%" r="4" fill="white" />
-    <text x="74.85%" y="19%"
-        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">
+    <circle cx="76.25%" cy="10%" r="4" fill="white" />
+    <text x="77.25%" y="11%"
+        style="font-family: SF Pro Display; font-size: 35px; filter: url(#shadow);" fill="white">Developer
+        writes nodes,</text>
+    <text x="77.25%" y="14.5%"
+        style="font-family: SF Pro Display; font-size: 35px; filter: url(#shadow);" fill="white">
+        framework executes</text>
+    <circle cx="76.25%" cy="18%" r="4" fill="white" />
+    <text x="77.25%" y="19%"
+        style="font-family: SF Pro Display; font-size: 35px; filter: url(#shadow);" fill="white">
         Multi-threading</text>
-    <circle cx="74.25%" cy="22%" r="4" fill="white" />
-    <text x="74.85%" y="23%"
-        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Code
+    <circle cx="76.25%" cy="23%" r="4" fill="white" />
+    <text x="77.25%" y="24%"
+        style="font-family: SF Pro Display; font-size: 35px; filter: url(#shadow);" fill="white">Code
         generation</text>
-    <circle cx="74.25%" cy="26%" r="4" fill="white" />
-    <text x="74.85%" y="27%"
-        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Debugging
+    <circle cx="76.25%" cy="28%" r="4" fill="white" />
+    <text x="77.25%" y="29%"
+        style="font-family: SF Pro Display; font-size: 35px; filter: url(#shadow);" fill="white">Debugging
         server</text>
 
-    <text x="74%" y="34%"
-        style="font-family: SF Pro Display; font-weight: 700; font-size: 30px; filter: url(#shadow);"
+    <text x="76%" y="36%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
         fill="white">Tooling</text>
-    <circle cx="74.25%" cy="37%" r="4" fill="white" />
-    <text x="74.85%" y="38%"
-        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Debugging
+    <circle cx="76.25%" cy="40%" r="4" fill="white" />
+    <text x="77.25%" y="41%"
+        style="font-family: SF Pro Display; font-size: 35px; filter: url(#shadow);" fill="white">Debugging
         clients</text>
-    <circle cx="74.25%" cy="41%" r="4" fill="white" />
-    <text x="74.85%" y="42%"
-        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Recording
+    <circle cx="76.25%" cy="45%" r="4" fill="white" />
+    <text x="77.25%" y="46%"
+        style="font-family: SF Pro Display; font-size: 35px; filter: url(#shadow);" fill="white">Recording
         &amp; Replay</text>
-    <circle cx="74.25%" cy="45%" r="4" fill="white" />
-    <text x="74.85%" y="46%"
-        style="font-family: SF Pro Display; font-size: 30px; filter: url(#shadow);" fill="white">Behavior
-        simulator</text>
+    <circle cx="76.25%" cy="50%" r="4" fill="white" />
+    <text x="77.25%" y="51%"
+        style="font-family: SF Pro Display; font-size: 35px; filter: url(#shadow);" fill="white">
+        Simulators</text>
 </svg>

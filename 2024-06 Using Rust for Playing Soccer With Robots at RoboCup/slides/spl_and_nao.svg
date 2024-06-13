@@ -13,16 +13,16 @@
         fill="white">Standard Platform League (SPL)</text>
     <circle cx="77" cy="153" r="7" fill="white" />
     <text x="100" y="170"
-        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">7
-        vs. 7 or 5 vs. 5</text>
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">Identical
+        robots, only software differs</text>
     <circle cx="77" cy="213" r="7" fill="white" />
     <text x="100" y="230"
         style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">Fully
         autonomous</text>
     <circle cx="77" cy="273" r="7" fill="white" />
     <text x="100" y="290"
-        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">Identical
-        robots, only software differs</text>
+        style="font-family: SF Pro Display; font-size: 50px; filter: url(#shadow);" fill="white">7
+        vs. 7 or 5 vs. 5</text>
 
     <text x="1500" y="100"
         style="font-family: SF Pro Display; font-weight: 700; font-size: 65px; filter: url(#shadow);"
