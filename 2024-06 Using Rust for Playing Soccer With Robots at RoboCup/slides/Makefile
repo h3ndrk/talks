@@ -19,8 +19,14 @@ robot_control_software.pdf: robot_control_software.svg nao_walking_in.jpg camera
 software_design.pdf: software_design.svg two_naos_fighting_for_ball.jpg
 	svg2pdf software_design.svg software_design.pdf
 
-transition.pdf: transition.svg nao_looking_into_field.jpg
-	svg2pdf transition.svg transition.pdf
+transition_0.pdf: transition_0.svg nao_looking_into_field.jpg
+	svg2pdf transition_0.svg transition_0.pdf
+
+transition_1.pdf: transition_0.svg transition_1.svg nao_looking_into_field.jpg
+	svg2pdf transition_1.svg transition_1.pdf
+
+transition_2.pdf: transition_1.svg transition_2.svg nao_looking_into_field.jpg
+	svg2pdf transition_2.svg transition_2.pdf
 
 current_state.pdf: current_state.svg nao_kicks_ball2.jpg
 	svg2pdf current_state.svg current_state.pdf
@@ -31,5 +37,5 @@ demo.pdf: demo.svg nao_feet.jpg
 outro.pdf: outro.svg empty_field_from_above.jpg link_github.svg link_talks.svg zuehlke.png profile.jpg
 	svg2pdf outro.svg outro.pdf
 
-slides.pdf: title.pdf robocup.pdf spl_and_nao.pdf team.pdf robot_control_software.pdf software_design.pdf transition.pdf current_state.pdf demo.pdf outro.pdf
-	pdfunite title.pdf robocup.pdf spl_and_nao.pdf team.pdf robot_control_software.pdf software_design.pdf transition.pdf current_state.pdf demo.pdf outro.pdf slides.pdf
+slides.pdf: title.pdf robocup.pdf spl_and_nao.pdf team.pdf robot_control_software.pdf software_design.pdf transition_0.pdf transition_1.pdf transition_2.pdf current_state.pdf demo.pdf outro.pdf
+	pdfunite title.pdf robocup.pdf spl_and_nao.pdf team.pdf robot_control_software.pdf software_design.pdf transition_0.pdf transition_1.pdf transition_2.pdf current_state.pdf demo.pdf outro.pdf slides.pdf
