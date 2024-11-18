@@ -1,20 +1,20 @@
-# Using Rust for Playing Soccer With Robots at RoboCup
+# Einsatz von Rust zum Fußballspielen mit Robotern beim RoboCup
 
-## Technical Challenges and Lessons Learned in Using Rust in a Large Project
+## Technische Herausforderungen und Erfahrungen beim Einsatz von Rust in einem großen Softwareprojekt
 
 - [Talk Description at Conference Website](https://rustfest.ch/talks/using-rust-for-playing-soccer-with-robots-at-robocup/)
 
-The goal of the RoboCup is to play humans vs. autonomous robots in soccer matches by the year 2050.
-To drive progress toward this ambitious goal, annual competitions and conferences across various robotics sub-fields are held, to encourage research and development.
-Traditionally, robot programming has been dominated by languages like C++ and Python.
-However, first teams are adopting Rust for its benefits in safety, reliability, and performance.
+Das Ziel des RoboCups ist es, dass autonome Roboter in einem Fußballspiel im Jahr 2050 gegen Menschen gewinnen.
+Um dieses ehrgeizige Ziel zu erreichen und die Forschung und Entwicklung voranzutreiben, werden jährliche Wettbewerbe und Konferenzen in den Bereichen der Robotik veranstaltet.
+Traditionell dominieren Programmiersprachen wie C++ und Python die Robotik-Programmierung.
+Jedoch setzen erste Teams zunehmend auf Rust, um von dessen Vorteilen in Bezug auf Sicherheit, Zuverlässigkeit und Effizienz zu profitieren.
 
-In this talk, I will discuss our team's journey in transitioning from a C++ codebase to Rust.
-Our full-stack codebase consists of a wide range of algorithms and applications designed for controlling autonomous robots.
-These robots must execute tasks such as identifying the soccer ball, accurately determining their position on the field, strategizing their next moves, and executing actions like forward movement or ball kicking.
-Our codebase includes several vision, behavioral, and motion algorithms paired with debugging applications.
+In diesem Vortrag stelle ich die Umstellung der C++-Codebasis unseres Teams auf Rust vor.
+Unsere Full-Stack-Codebasis besteht aus einer Vielzahl von Algorithmen und Applikationen, die für die Steuerung autonomer Roboter entwickelt wurden.
+Die Roboter müssen Aufgaben wie die Identifizierung des Fußballs, die genaue Bestimmung ihrer Position auf dem Spielfeld, die Planung ihrer nächsten Züge und die Ausführung von Aktionen wie humaniodes Laufen oder Schussbewegungen bewältigen.
+Unser Code umfasst viele Algorithmen für die Bildverarbeitung, das Verhalten des Roboters und die Bewegung, und wird ergänzt durch Debugging-Anwendungen.
 
-Throughout the talk, I will share lessons learned from this transition process, touching not only on technical challenges but also on the education of our team members.
+Während des Vortrags werde ich Erfahrungen und Erkenntnisse aus der Umstellung teilen und sowohl technische Herausforderungen als auch die Ausbildung unserer Teammitglieder beleuchten.
 
 ```
 cargo install --git https://github.com/RazrFalcon/resvg --tag v0.41.0 resvg

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    viewBox="0 0 1920 1080"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+        <feDropShadow dy="2" stdDeviation="10" flood-color="white" />
+    </filter>
+    <filter id="shadow2" x="-100%" y="-100%" width="300%" height="300%">
+        <feDropShadow dy="5" stdDeviation="15" />
+        <feDropShadow dy="5" stdDeviation="15" flood-opacity="0.5" />
+    </filter>
+
+    <image x="0" y="0" width="1920" height="1080" href="nao_kicks_ball2.jpg" />
+
+    <text x="55%" y="10%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 65px; filter: url(#shadow);"
+        fill="black">Current State &amp; Tools
+    </text>
+
+    <text x="55%" y="18%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Newbie Education <tspan style="font-weight: normal;">(Rust Introduction,
+        Pairing)</tspan></text>
+    <text x="55%" y="24%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Monorepo + Workspace Dependencies <tspan style="font-weight: normal;">(cargo)</tspan></text>
+    <text x="55%" y="30%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Yocto Integration <tspan style="font-weight: normal;">(depp, cargo-bitbake)</tspan></text>
+    <text x="55%" y="36%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Additional Tooling <tspan style="font-weight: normal;">(clap, indicatif)</tspan></text>
+    <text x="55%" y="42%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">CI Setup <tspan style="font-weight: normal;">(test, clippy, rustfmt)</tspan></text>
+    <text x="55%" y="48%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">UI Tools <tspan style="font-weight: normal;">(egui, tungstenite + Web)</tspan></text>
+    <text x="55%" y="54%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Profiling <tspan style="font-weight: normal;">(VTune, pprof)</tspan></text>
+    <text x="55%" y="60%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Linear Algebra Libraries <tspan style="font-weight: normal;">(nalgebra)</tspan></text>
+    <text x="55%" y="66%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Coordinate Systems</text>
+    <text x="55%" y="72%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Error Handling <tspan style="font-weight: normal;">(anyhow, eyre, color-eyre)</tspan></text>
+    <text x="55%" y="78%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Serialization <tspan style="font-weight: normal;">(serde)</tspan></text>
+    <text x="55%" y="84%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Machine Learning <tspan style="font-weight: normal;">(CompiledNN, OpenVINO)</tspan></text>
+    <text x="55%" y="90%"
+        style="font-family: SF Pro Display; font-weight: 700; font-size: 35px; filter: url(#shadow);"
+        fill="black">Interfacing to C++ and other stuff <tspan style="font-weight: normal;">(bindgen,
+        mlua)</tspan></text>
+</svg>
