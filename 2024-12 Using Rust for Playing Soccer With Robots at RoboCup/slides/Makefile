@@ -39,3 +39,6 @@ outro.pdf: outro.svg empty_field_from_above.jpg link_github.svg link_talks.svg z
 
 slides.pdf: title.pdf robocup.pdf spl_and_nao.pdf team.pdf robot_control_software.pdf software_design.pdf transition_0.pdf transition_1.pdf transition_2.pdf current_state.pdf demo.pdf outro.pdf
 	pdfunite title.pdf robocup.pdf spl_and_nao.pdf team.pdf robot_control_software.pdf software_design.pdf transition_0.pdf transition_1.pdf transition_2.pdf current_state.pdf demo.pdf outro.pdf slides.pdf
+
+slides_small.pdf: slides.pdf
+	ps2pdf slides.pdf slides_small.pdf
