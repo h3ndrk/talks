@@ -1,5 +1,6 @@
 # Hendrik's Talks
 
+- [Einsatz von Rust zum Fußballspielen mit Robotern beim RoboCup](/2024-12%20Using%20Rust%20for%20Playing%20Soccer%20With%20Robots%20at%20RoboCup/) at [Embedded Software Engineering Kongress 2024](https://ese-kongress.de/)
 - [Using Rust for Playing Soccer With Robots at RoboCup](/2024-06%20Using%20Rust%20for%20Playing%20Soccer%20With%20Robots%20at%20RoboCup/) at [RustFest 2024](https://rustfest.ch/)
 - [HULKs Recording and Replay](/2023-12%20HULKs%20Recording%20and%20Replay/) at [RoHOW 2023](https://rohow.de/2023/en/)
 - [HULKs Robotics Framework](/2022-12%20HULKs%20Robotics%20Framework/) at [vRoHOW 2022](https://rohow.de/2022/en/)
